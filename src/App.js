@@ -1,7 +1,7 @@
 import React from 'react';
 import { decode, encode } from 'base-64';
 
-import Login from './Users/Login';
+import Routes from './Routes/routes';
 
 if (!global.btoa) {
   global.btoa = encode;
@@ -12,7 +12,7 @@ if (!global.atob) {
 }
 
 const App = () => {
-  return <Login />;
+  return <Routes />;
 };
 
 export default App;

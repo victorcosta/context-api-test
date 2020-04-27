@@ -16,27 +16,7 @@ const Login = () => {
     }
   }, [email, password]);
 
-  const handleSingUp = () => {
-    firebase
-      .auth()
-      .createUserWithEmailAndPassword(email, password)
-      .then((userCredencials) => {
-        firebase
-          .firestore()
-          .collection('users')
-          .doc(userCredencials.user.uid)
-          .set({
-            email: email,
-            name: name
-          })
-          .catch((error) => {
-            alert(error);
-          });
-      })
-      .catch((error) => {
-        alert(error.code);
-      });
-  };
+  const handleSingUp = () => {};
 
   const handleLogin = () => {
     firebase
