@@ -32,6 +32,8 @@ const getUserData = (callback) => {
   });
 };
 
+// To using method:
+// getDataList('aloos', (upData) => setData(upData));
 const getDataList = (nodePath, callback) => {
   const query = firebase.firestore().collection(nodePath);
 
