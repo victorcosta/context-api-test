@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "102062834303",
+    "firebase_url": "https://contexttest-620b3.firebaseio.com",
+    "project_id": "contexttest-620b3",
+    "storage_bucket": "contexttest-620b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102062834303:android:18a2ed4c2079573cf8354a",
+        "android_client_info": {
+          "package_name": "com.contexttest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102062834303-hf19ijqac2v01dbprhoe9sn8q1f8r9mi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdc7t0Hub2Gs-c3komdiIyfwT0gguAogk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102062834303-hf19ijqac2v01dbprhoe9sn8q1f8r9mi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
